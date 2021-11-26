@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "a base node.js ts project",
 	"main": "build/index.js",
+	"private": true,
 	"types": "build/index.d.ts",
 	"engines": {
 		"node": "^14.15.0 || ^16.6.2",
