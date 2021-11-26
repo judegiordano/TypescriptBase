@@ -38,4 +38,3 @@ Thumbs.db
 build/**/*
 
 # ignore yarn.lock
-yarn.lock
