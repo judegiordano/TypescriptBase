@@ -14,7 +14,8 @@
 		"lint": "eslint --fix --ext .ts .",
 		"test": "jest",
 		"dev": "npx ts-node src/index.ts",
-		"start": "node ."
+		"start": "node .",
+		"blah": "npx husky-init && yarn"
 	},
 	"author": "Jude Giordano",
 	"license": "MIT",
@@ -24,6 +25,7 @@
 		"@types/node": "^14.14.14",
 		"@typescript-eslint/parser": "^4.10.0",
 		"eslint": "^7.16.0",
+		"husky": "^7.0.0",
 		"jest": "^27.3.1",
 		"ts-jest": "^27.0.7",
 		"ts-node": "^10.4.0",
