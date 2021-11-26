@@ -14,8 +14,7 @@
 		"test": "jest",
 		"clean": "yarn autoclean --force",
 		"dev": "npx ts-node src/index.ts",
-		"start": "node .",
-		"blah": "npx husky-init && yarn"
+		"start": "node ."
 	},
 	"author": "Jude Giordano",
 	"license": "MIT",
