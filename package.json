@@ -10,9 +10,9 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"clean": "powershell Remove-Item build -r; Remove-Item node_modules -r",
 		"lint": "eslint --fix --ext .ts .",
 		"test": "jest",
+		"clean": "yarn autoclean --force",
 		"dev": "npx ts-node src/index.ts",
 		"start": "node .",
 		"blah": "npx husky-init && yarn"
