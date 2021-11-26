@@ -1,4 +1,4 @@
-import { server } from "@/index";
+import { server } from "@/server";
 import supertest from "supertest";
 
 const request = supertest(server);

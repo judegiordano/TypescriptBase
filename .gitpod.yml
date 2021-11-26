@@ -3,6 +3,7 @@ tasks:
       yarn install
       yarn build
       yarn test
+      yarn start
 
 ports:
   - port: 3000
