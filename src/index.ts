@@ -1,1 +1,10 @@
-export const Add = (val1: number, val2: number): number => val1 + val2;
+import http, { IncomingMessage, ServerResponse } from "http";
+
+const requestListener = async (_: IncomingMessage, res: ServerResponse): Promise<void> => {
+	res.writeHead(200);
+	res.end("hello world");
+};
+
+export const server = http.createServer(requestListener);
+
+// server.listen(3000);

@@ -1,9 +1,13 @@
-import { Add } from "@/index";
+import { server } from "@/index";
+import supertest from "supertest";
+
+const request = supertest(server);
 
 describe("generic test runner", () => {
 
-	it("should add two numbers", () => {
-		const sum = Add(1, 1);
-		expect(sum).toEqual(2);
+	it("should start an hhtp server", async () => {
+		const response = await request.get("");
+		expect(response.status).toBe(200);
+		expect(response.text).toBe("hello world");
 	});
 });

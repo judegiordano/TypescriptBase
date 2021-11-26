@@ -1,11 +1,19 @@
-# Commands to start on workspace startup
 tasks:
-  - name: Environment 1
-    before: yarn install
-    init: yarn build
-    command: yarn build
+  - init: |
+      yarn install
+      yarn build
+      yarn test
 
-# Ports to expose on workspace startup
 ports:
   - port: 3000
     onOpen: open-preview
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: false
