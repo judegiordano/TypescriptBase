@@ -1,4 +1,4 @@
-import { Add } from "@/index";
+import { Add } from "../src";
 
 describe("generic test runner", () => {
 
