@@ -4,6 +4,7 @@
 		"pkief.material-icon-theme",
 		"coenraads.bracket-pair-colorizer-2",
 		"redhat.vscode-yaml",
-		"oouo-diogo-perdigao.docthis"
+		"oouo-diogo-perdigao.docthis",
+    "editorconfig.editorconfig"
 	]
 }
