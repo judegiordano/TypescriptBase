@@ -6,7 +6,6 @@ const tsConfigPath = "./test/tsconfig.json";
 export default async (): Promise<Config.InitialOptions> => {
 	return {
 		verbose: true,
-		// preset: "ts-jest/presets/js-with-ts",
 		preset: "ts-jest",
 		testEnvironment: "node",
 		testEnvironmentOptions: {},
