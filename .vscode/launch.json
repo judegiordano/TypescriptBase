@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch:DEV",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": [
+        "dev"
+      ],
+      "outputCapture": "std",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
